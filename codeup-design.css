@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color: var(--light_gray);
 }
 
 :root {
@@ -10,30 +11,36 @@
     --light_gray: #F0F0F0;
     --gray: #E6E6E6;
 }
-
+a {
+    color: black;
+}
+.active {
+    color: black;
+}
+.bold {
+    font-family: 'Anton', sans-serif;
+}
 .logo {
     height: 105px;
     width: 105px;
 }
-
 .icon {
     height: 18px;
     width: 18px;
 }
-
+li {
+    color: var(--gray);
+}
+nav {
+    display: flex;
+}
 .regular {
     font-family: 'Abel', sans-serif;
 }
 
-.bold {
-    font-family: 'Anton', sans-serif;
-}
 
-a {
-    color: black;
-}
 
-nav {
-    display: flex;
-}
+
+
+
 
