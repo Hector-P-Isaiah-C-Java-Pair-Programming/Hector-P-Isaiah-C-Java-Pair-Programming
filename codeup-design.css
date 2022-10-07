@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #e6563B;
+    --orange: #EB9D3A;
+    --green: #7CB06C;
+    --blue: #00ABA9;
+    --light_gray: #F0F0F0;
+    --gray: #E6E6E6;
+}
+
+.logo {
+    height: 105px;
+    width: 105px;
+}
+
+.icon {
+    height: 18px;
+    width: 18px;
+}
+
+.regular {
+    font-family: 'Abel', sans-serif;
+}
+
+.bold {
+    font-family: 'Anton', sans-serif;
+}
+
+a {
+    color: black;
+}
+
+nav {
+    display: flex;
+}
+
