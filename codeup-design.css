@@ -17,12 +17,20 @@ a {
 .active {
     color: black;
 }
+.blue {
+    background-color: var(--blue);
+}
 .bold {
     font-family: 'Anton', sans-serif;
 }
-.logo {
-    height: 105px;
-    width: 105px;
+.circle {
+    border: 10px solid white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.green {
+    background-color: var(--green);
 }
 .icon {
     height: 18px;
@@ -31,12 +39,23 @@ a {
 li {
     color: var(--gray);
 }
+.logo {
+    height: 105px;
+    width: 105px;
+}
 nav {
     display: flex;
+}
+.orange {
+    background-color: var(--orange);
+}
+.red {
+    background-color: var(--red);
 }
 .regular {
     font-family: 'Abel', sans-serif;
 }
+
 
 
 
