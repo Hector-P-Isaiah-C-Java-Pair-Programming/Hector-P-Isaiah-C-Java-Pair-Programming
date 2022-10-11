@@ -1,10 +1,61 @@
+* {
+    box-sizing: border-box;
+    background-color: var(--light_gray);
+}
+:root {
+    --red: #e6563B;
+    --orange: #EB9D3A;
+    --green: #7CB06C;
+    --blue: #00ABA9;
+    --light_gray: #F0F0F0;
+    --gray: #E6E6E6;
+}
+a {
+    color: black;
+}
+.active {
+    color: black;
+}
+.big-badge {
+    border: 10px solid white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    font-size: 1.5em;
+    padding-bottom: .75em;
+    margin: 1em;
+}
+.blue {
+    background-color: var(--blue);
+}
+.bold {
+    font-family: 'Anton', sans-serif;
+}
+.green {
+    background-color: var(--green);
+}
 .logo {
     height: 105px;
     width: 105px;
+}
+li {
+    color: var(--gray);
 }
 
 /* Can't reach badge class */
 .lilbadge {
     height: 18px;
     width: 18px;
+}
+.orange {
+    background-color: var(--orange);
+}
+.red {
+    background-color: var(--red);
+}
+.regular {
+    font-family: 'Abel', sans-serif;
+}
+.row>* {
+    padding: 0;
 }
