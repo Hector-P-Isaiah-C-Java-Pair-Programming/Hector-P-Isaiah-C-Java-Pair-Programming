@@ -38,6 +38,11 @@ nav {
     font-family: 'Abel', sans-serif;
 }
 
+/* Can't reach badge class */
+.lilbadge {
+    height: 18px;
+    width: 18px;
+}
 
 
 
