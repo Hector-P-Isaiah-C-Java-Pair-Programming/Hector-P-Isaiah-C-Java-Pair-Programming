@@ -31,6 +31,9 @@ a {
 .bold {
     font-family: 'Anton', sans-serif;
 }
+.card {
+    margin: .5em;
+}
 .card-img-top {
     background-color: var(--gray);
     aspect-ratio: 2/1.5;
@@ -65,7 +68,4 @@ li {
 }
 .row>* {
     padding: 0;
-}
-.card {
-    margin: .5em;
 }
